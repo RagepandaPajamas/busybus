@@ -10,6 +10,7 @@ a {
   color: inherit;
 }
 a :hover {background-color: #C9DEE3;}
+a :active {color: inherit;}
 
 div {
   float: left;
@@ -61,10 +62,18 @@ ul.Navigation li {
   background-color: #0E5472;
   color: #FFFFFF;
 }
-.line {
+.Line {
   background-color: #FFFFFF
   color: #37474F;
   width: 20%;
+  display: table;
+}
+ul.Line {
+  padding: 8px;
+}
+ul.Line li {
+  display: inline;
+  width: 33%;
 }
 .Android-navbar {
   position: fixed;
