@@ -35,9 +35,27 @@ h4 {
 .Static {
   position: fixed;
   top: 0;
+  background-color: #0E5472;
+}
+
+.top-bar {
+  display: table;
+
+}
+ul.Navigation {
+  padding-bottom: 8px;
+}
+ul.Navigation li {
+  display: inline;
+
+}
+.Scroll-List {
+  margin-top: 500px;
+  margin-bottom: 60px;
 }
 .Navigation {
   background-color: #0E5472;
+  color: #FFFFFF;
 }
 .Header {
   background-color: #0E5472;
@@ -46,8 +64,9 @@ h4 {
 .line {
   background-color: #FFFFFF
   color: #37474F;
+  width: 20%;
 }
-.AndroidNavbar {
-  position: absolute;
+.Android-navbar {
+  position: fixed;
   bottom: 0;
 }
