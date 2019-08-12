@@ -2,15 +2,13 @@
   box-sizing: border-box;
 }
 body {
-
+  background-color: #0E5472;
+  font-family: Roboto Medium;
+  font-size: 16px;
 }
 div {
-  background-color: #FFFFFF;
   float: left;
   margin: 2% 0;
   width: 100%;
   padding: 20px 25px;
-}
-.image {
-  background-image: url("../images/busstop.jpg");
 }
