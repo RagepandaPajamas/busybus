@@ -2,13 +2,52 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #0E5472;
   font-family: Roboto Medium;
   font-size: 16px;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a :hover {background-color: #C9DEE3;}
+
 div {
   float: left;
-  margin: 2% 0;
+  margin: 0;
   width: 100%;
-  padding: 20px 25px;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1em;
+}
+.Static {
+  position: fixed;
+  top: 0;
+}
+.Navigation {
+  background-color: #0E5472;
+}
+.Header {
+  background-color: #0E5472;
+  color: #FFFFFF;
+}
+.line {
+  background-color: #FFFFFF
+  color: #37474F;
+}
+.AndroidNavbar {
+  position: absolute;
+  bottom: 0;
 }
