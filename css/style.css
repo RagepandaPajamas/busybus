@@ -93,11 +93,12 @@ ul.header {
   padding-left: 16px;
   padding-right: 16px;
   width: 100%;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 ul.header li {
   display: inline-block;
-  padding-top: 11px;
-  padding-bottom: 11px;
+
 }
 .direction, .number {
   float: left;
@@ -117,11 +118,12 @@ ul.line {
   padding-left: 16px;
   padding-right: 16px;
   width: 100%;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 ul.line li {
   display: inline-block;
-  padding-top: 11px;
-  padding-bottom: 11px;
+
 }
 .destination {
   /** Need this to align vertically **/
