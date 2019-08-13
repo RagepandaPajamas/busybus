@@ -8,17 +8,16 @@ body {
   width: 360px;
 }
 
-.image {
+.image { /** not working **/
   width: 100%;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
 a :hover {background-color: #C9DEE3;}
 a :active {color: inherit;}
-
-
 
 h1 {
   font-size: 1.5em;
@@ -41,6 +40,7 @@ h4 {
 static elements at the top **/
 
 .stop-image {
+  /** broken **/
   background-image: image("../images/stop image.png");
   width: 100%;
   height: 200px;
@@ -79,10 +79,34 @@ ul.navigation li {
 /** all the code for the
 scrolling elements **/
 
-.buffer {
+.buffer { /** This makes sure the content starts under the fixed items, this could also be done in Java easier **/
   margin-bottom: 280px;
 }
 
+/** header details **/
+.header {
+  background-color: #0E5472;
+  color: #FFFFFF;
+  display: table;
+}
+ul.header {
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+}
+ul.header li {
+  display: inline-block;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.direction, .number {
+  float: left;
+}
+.time {
+  float: right;
+}
+
+/** Line details **/
 .line {
   background-color: #FFFFFF
   color: #37474F;
@@ -99,31 +123,14 @@ ul.line li {
   padding-top: 11px;
   padding-bottom: 11px;
 }
-.header {
-  background-color: #0E5472;
-  color: #FFFFFF;
-  display: table;
-}
-ul.header {
-  padding-left: 16px;
-  padding-right: 16px;
-  width: 100%;
-}
-ul.header li {
-  display: inline-block;
-  padding-top: 11px;
-  padding-bottom: 11px;
+.destination {
+  /** Need this to align vertically **/
 }
 
-.direction {
-  float: left;
-}
-.time {
-  float: right;
-}
 .reroute .line > li {
   color: #B00020;
 }
+/** Cant get this part to make the text opaque **/
 .out-of-service .line > li {
   opacity: 60%;
 }
