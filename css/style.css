@@ -41,9 +41,9 @@ static elements at the top **/
 
 .stop-image {
   /** broken **/
-  background-image: image("../images/stop image.png");
+  background-image: url("../images/stop image.png");
   width: 100%;
-  height: 200px;
+  height: 140px;
 }
 .static {
   position: fixed;
@@ -80,7 +80,7 @@ ul.navigation li {
 scrolling elements **/
 
 .buffer { /** This makes sure the content starts under the fixed items, this could also be done in Java easier **/
-  margin-bottom: 280px;
+  margin-bottom: 220px;
 }
 
 /** header details **/
