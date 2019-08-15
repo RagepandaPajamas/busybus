@@ -40,7 +40,7 @@ h4 {
 static elements at the top **/
 
 .stop-image {
-  background-image: url("../images/Stop image.png");
+  background-image: url("images/Stop image.png");
   width: 100%;
   height: 140px;
 }
